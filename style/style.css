@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#allPg {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+header {
+    height: 100px;
+    background-color: #cb934e82;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    padding: 10px;
+   }
+
+@keyframes anim{
+    0% {background-color: rgba(162, 112, 92, 0.63);} /*Amarillo*/
+   25% {background-color: rgba(209, 149, 80, 0.82);} /*Naranja*/
+   50% {background-color: #a0804e34;} /*Negro*/
+   75% {background-color: rgba(176, 113, 41, 0.724);} /*Otra vez naranja*/
+  100% {background-color: rgba(134, 107, 77, 0.58);} /*Otra vez amarillo*/
+}
+
+.headerBiografi {
+    position: relative;
+   }
+   
+.headerContact {
+    position: relative;
+}
+
+.navBar {
+    color: chocolate;
+    background-color: #d39161;
+    padding: 10px 20px 20px 20px;
+    margin: 20px;
+    border-radius: 60px;
+    }
+
+.navBar:hover {
+        background-color: rgb(173, 131, 89);
+        color: rgb(69, 26, 10);
+    }
+
+   
+nav {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.structureHome {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    }
+
+.imgHome {
+    width: 100%;
+    height: 100%;
+} 
+    
+h1 {
+    font-family: 'Mynerve', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+    color: #e06812be;
+    transform: rotate(20deg);
+    }
+
+footer {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #e3a77d;
+        padding-right: 60px;
+    }
+
+.biografyContent {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #f4d0b6af;
+        margin-top: 10px;
+    }
+
+.portfoliContent {
+    background-color: #f4d0b6af ;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.registration {
+    margin-top: 10px;
+}
+
+
+ 
