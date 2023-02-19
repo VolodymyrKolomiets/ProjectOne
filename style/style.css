@@ -44,6 +44,10 @@ header {
     position: relative;
 }
 
+.headerPortfoli {
+    position: relative;
+}
+
 .navBar {
     color: chocolate;
     background-color: #d39161;
@@ -85,20 +89,22 @@ h1 {
     }
 
 footer {
-        display: flex;
-        justify-content: flex-end;
-        background-color: #e3a77d;
-        padding-right: 60px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e3a77d;
+    padding-right: 60px;
     }
 
 .biografyContent {
-        font-family: 'Courier New', Courier, monospace;
-        background-color: #f4d0b6af;
-        margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4d0b6af;
+    margin-top: 10px;
     }
 
 .portfoliContent {
-    background-color: #f4d0b6af ;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4d0b6af;
+    margin-top: 10px;
 }
 
 input {
