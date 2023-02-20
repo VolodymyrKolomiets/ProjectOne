@@ -19,9 +19,8 @@ header {
     background-color: #cb934e82;
     display: flex;
     justify-content: space-around;
-    position: sticky;
+    position: relative;
     top: 10px;
-    z-index: 1;
     animation-name: anim;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -36,17 +35,6 @@ header {
   100% {background-color: rgba(134, 107, 77, 0.58);} /*Otra vez amarillo*/
 }
 
-.headerBiografi {
-    position: relative;
-   }
-   
-.headerContact {
-    position: relative;
-}
-
-.headerPortfoli {
-    position: relative;
-}
 
 .navBar {
     color: chocolate;
@@ -81,11 +69,9 @@ nav {
 h1 {
     font-family: 'Mynerve', Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
-    position: absolute;
-    left: 40%;
-    bottom: 50%;
     color: #e06812be;
-    transform: rotate(20deg);
+    background-color: #f4d0b6af;
+    margin-top: 10px;
     }
 
 footer {

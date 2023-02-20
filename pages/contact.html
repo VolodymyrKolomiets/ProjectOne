@@ -9,17 +9,17 @@
 </head>
 <body>
     <div id="allPg">
-        <header class="headerContact"> 
-            <img src="../img/f5f7a3bfae8e477e97ad5de21353d34f.png" alt="Coffe" height="80px" width="80px">  
+        <header> 
             <nav>
               <a class="navBar" href="../pages/biografi.html">Biografía</a>
               <a class="navBar" href="../pages/portfolio.html">Portfolio</a> 
             </nav>
+            <img src="../img/f5f7a3bfae8e477e97ad5de21353d34f.png" alt="Coffe" height="80px" width="80px">  
         </header>
         <div class="registration">
             <form >
                 <fieldset >
-                <legend>Registracion:</legend> <br>
+                <legend>Pedidos:</legend> <br>
              
                  <label for="fname">Nombre:</label><br>
                  <input type="text" id="fname" name="fname" required autofocus autocomplete="on" tabindex="1" placeholder="Tu nombre"><br>
@@ -45,9 +45,19 @@
                  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-67-89"><br>
 
                  <label for="address">Direccion:</label>
-                 <textarea name="address" cols="50" rows="5" tabindex="3"></textarea><br>
+                 <textarea name="address" cols="50" rows="5" tabindex="3"></textarea><br><br>
+                 
+                 <label for="bike">Elige el tipo de café:</label><br>
+                 <select id="bike" name="bike" size="3" multiple>
+                   <option value="1">Arabica</option>
+                   <option value="2">Robusto</option>
+                   <option value="3">Combinados</option>
+                 </select> <br> <br>
+
+                 <label for="age">Kilos:</label><br>
+                 <input type="number" id="age" name="age" min="1" max="99" tabindex="2">
         
-                 <br><input type="submit" value="Registrar">
+                 <br><input type="submit" value="Hacer pedido">
                  <input type="reset">
                 </fieldset>
               </form>
