@@ -1,27 +1,21 @@
-<<<<<<< HEAD
 # Project one
 ***
-## General info
--Little web-site about a coffe company
-I'm study to create web-sites-
-=======
-# ProjectOne
-***
-## General info
-Little web-site about a coffe company
-I'm study to create web-sites
->>>>>>> 3c58084bd1efb86b3af146c4e2ec63a3f46bcfe9
-## Tecnologies
-***
-*[HTML5](https://developer.mozilla.org/es/docs/Web/HTML)
-*[CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
-***
-## Instalation
-In your console of Visual Studio write
-git clone https://github.com/VolodymyrKolomiets/ProjectOne
-git pull
-<<<<<<< HEAD
+# Description
+-Un pequeño proyecto de web, simulando una compania de cafe
 
+# Ejecutando las pruebas ⚙️
+Visual Code
 
-=======
->>>>>>> 3c58084bd1efb86b3af146c4e2ec63a3f46bcfe9
+# Construido con 🛠️
+HTML <a src: https://developer.mozilla.org/es/docs/Web/HTML alt:css>
+CSS <a  src: https://developer.mozilla.org/es/docs/Learn/CSS alt:html>
+
+# Versionado 📌
+Usamos Github para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
+
+# Autores ✒️
+Volodymyr Kolomiiets
+
+# Licencia 📄
+Este proyecto está bajo la Licencia kolomiietsv88@gmail.com y patrovinadores de The Bridge
+
